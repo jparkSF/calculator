@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  overflow: hidden;
+}
+.content-wrapper {
+  padding: 24px;
+  width: 100%;
+}
+.input {
+  display: flex;
+  margin-bottom: 15px;
+}
+.input-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.options {
+  margin-top: 5px;
+  display: flex;
+}
+.label {
+  min-width: 90px;
+  width: 90px;
+  line-height: 35px;
+}
+
+label {
+  text-align: right;
+  color: rgb(72, 72, 72) !important;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+input {
+  flex: 1;
+  min-height: 30px;
+  padding: 5px 10px;
+  -webkit-appearance: none;
+  border: 1px solid rgb(113, 113, 113) !important;;
+  border-radius: 8px;
+  font-size: 18px;
+  color: rgb(72, 72, 72) !important;
+}
+
+input:disabled {
+  color: rgb(113, 113, 113);
+}
+
+button {
+  /* margin-right: 5px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  border: 1px solid rgb(113, 113, 113) !important;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  background-color: #593CFB; */
+
+}
+
+.button-10 {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px 14px;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}

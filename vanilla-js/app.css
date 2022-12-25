@@ -1,0 +1,71 @@
+h1 {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+  padding: 20px;
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list input {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background: transparent;
+  border-radius: 6px;
+  box-shadow: none;
+  border: 1px solid gray;
+  width: 200px;
+  padding: 10px;
+  line-height: 1;
+}
+
+.list input:disabled {
+  background-color: #e6edef;
+  border: none;
+}
+
+.list input::placeholder {
+  color: gray;
+  font-weight: normal;
+}
+
+.list button {
+  background-color: #CCEDF3;
+  color: #00859B;
+  box-shadow: none;
+  border: none;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.list button:disabled {
+  background-color: #e6edef;
+}
